@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-08T11:38:11Z" name="Default suite" finished-at="2024-03-08T11:38:34Z" duration-ms="23915">
+    <groups>
+    </groups>
+    <test started-at="2024-03-08T11:38:11Z" name="Default test" finished-at="2024-03-08T11:38:34Z" duration-ms="23915">
+      <class name="selenium.FirstAutomation">
+        <test-method is-config="true" signature="start()[pri:0, instance:selenium.FirstAutomation@21ba0741]" started-at="2024-03-08T17:37:50Z" name="start" finished-at="2024-03-08T17:38:11Z" duration-ms="20988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="firstTest()[pri:0, instance:selenium.FirstAutomation@21ba0741]" started-at="2024-03-08T17:38:11Z" name="firstTest" finished-at="2024-03-08T17:38:34Z" duration-ms="23453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:selenium.FirstAutomation@21ba0741]" started-at="2024-03-08T17:38:37Z" name="close" finished-at="2024-03-08T17:38:56Z" duration-ms="19107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- selenium.FirstAutomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
