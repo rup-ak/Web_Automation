@@ -15,7 +15,7 @@ public class BaseDriver {
 	
 	@BeforeSuite
 	public void start() {
-		String browser = System.getProperty("browser", "edge");
+		String browser = System.getProperty("browser", "chrome");
 		
 		if(browser.contains("edge")) {
 			WebDriverManager.edgedriver().setup();
