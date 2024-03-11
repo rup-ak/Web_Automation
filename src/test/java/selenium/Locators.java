@@ -1,4 +1,4 @@
-package selenium;
+ package selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -10,7 +10,7 @@ public class Locators extends BaseDriver {
 	public void testLocator() throws InterruptedException {
 		
 		driver.manage().window().maximize();
-		driver.get("https://www.shohoz.com/contact-us/");
+		driver.get("https://carepro-training.ihmafrica.com/");
 //		driver.get("https://member.daraz.com.bd/user/login");
 		Thread.sleep(5000);
 		
@@ -59,9 +59,7 @@ public class Locators extends BaseDriver {
 		//css -> elementName [attributeName='attributeValue']
 		
 		//by css selector
-		WebElement name = driver.findElement(By.cssSelector("input[name='dest_form']"));
-		name.sendKeys("Nothing");
-		Thread.sleep(3000);
+		
 				
 		
 		
